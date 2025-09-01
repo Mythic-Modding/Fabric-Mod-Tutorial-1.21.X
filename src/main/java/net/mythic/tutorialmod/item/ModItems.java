@@ -21,6 +21,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(PINK_GARNET);
+            fabricItemGroupEntries.add(RAW_PINK_GARNET);
         });
     }
 }
